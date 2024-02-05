@@ -1,9 +1,11 @@
 <IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{HTTP_HOST} ^airulab.tech [NC]
+    RewriteRule ^(.*)$ https://www.airulab.tech/$1 [L,R=301]
+
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
-
-    RewriteEngine On
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

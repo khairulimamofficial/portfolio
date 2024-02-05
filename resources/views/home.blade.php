@@ -354,7 +354,7 @@
                             </a>
                         </div>
                         <div data-aos="fade-right" class="flex flex-item-work-container">
-                            <a class="flex flex-item-work-link" href="uat-flore-app">
+                            <a class="flex flex-item-work-link" href="software-requirements-specification-srs-case-study-to-initiate-on-building-app">
                                 <div class="flex-item-work">
                                     <h6 class="flex-item-work_title">
                                         Software Requirements Specification (SRS) Case Study To Initiate on Building an App
@@ -632,33 +632,33 @@
                                 </p>
                             </div>
                         </a>
-                        <a href="experience-at-iklc">
+                        <a href="disability-and-data-in-literaku-at-slba-yapentra">
                             <div data-aos="fade-right" data-aos-delay="150" class="flex-item-event">
-                                <img class="flex-item-event__img" src="img/photos/sample.jpg" alt="sample">
+                                <img class="flex-item-event__img" src="img/activity/Sosialisasi-2.jpg" alt="sample">
                                 <h6 class="flex-item-event_title">
-                                    My hands-on experience, technical proficiency, and dedication
+                                    Disability and Data in Literaku at SLBA YAPENTRA
                                 </h6>
 
                                 <p class="flex-item-event_desc">
-                                    My hands-on experience, technical proficiency, and dedication My hands-on experience, technical proficiency, and dedication
+                                    On January 20th, Literaku was promoted to one selected school at SLBA YAPENTRA Tanjung Morawa, marking a milestone for...
                                 </p>
                                 <p class="flex-item-event_date">
-                                    27 JAN 2024
+                                    20 JAN 2024
                                 </p>
                             </div>
                         </a>
-                        <a href="experience-at-iklc">
+                        <a href="experiencing-as-a-computer-science-student-in-malaysia">
                             <div data-aos="fade-right" data-aos-delay="350" class="flex-item-event">
-                                <img class="flex-item-event__img" src="img/photos/sample.jpg" alt="sample">
+                                <img class="flex-item-event__img" src="img/activity/UiTM-2.jpg" alt="sample">
                                 <h6 class="flex-item-event_title">
-                                    My hands-on experience, technical proficiency, and dedication
+                                    Experiencing as a Computer Science Student in Malaysia
                                 </h6>
 
                                 <p class="flex-item-event_desc">
-                                    My hands-on experience, technical proficiency, and dedication My hands-on experience, technical proficiency, and dedication
+                                    From March to August, I gained an opportunity to have a one-semester program at one of the renowned universities - Univ...
                                 </p>
                                 <p class="flex-item-event_date">
-                                    27 JAN 2024
+                                    3 AUG 2023
                                 </p>
                             </div>
                         </a>

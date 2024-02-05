@@ -692,8 +692,9 @@ img.photo-profile{
 }
 
 .flex-item-event__img{
+    height: 180px;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .flex-item-event_date{
     color: #909090;
@@ -703,6 +704,12 @@ img.photo-profile{
     color: #909090;
     margin-top: 4%;
     bottom: 2%;
+}
+i{
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-size: 16px;
+    display: block;
 }
 /* End of Track my Activities  */
 

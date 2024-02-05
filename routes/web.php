@@ -19,16 +19,32 @@ Route::get('/', function () {
 });
 
 Route::get('/uat-flore-app', function () {
-    return view('uat-flore-app
+    return view('casestudy/uat-flore-app
     ');
 });
 
 Route::get('/experience-at-iklc', function () {
-    return view('experience-at-iklc
+    return view('activity/experience-at-iklc
     ');
 });
 
 Route::get('/building-an-application-supporting-sdgs-through-product-management', function () {
-    return view('building-an-app
+    return view('casestudy/building-an-app
     ');
 });
+
+Route::get('/software-requirements-specification-srs-case-study-to-initiate-on-building-app', function () {
+    return view('casestudy/software-requirements-specification
+    ');
+});
+Route::get('/disability-and-data-in-literaku-at-slba-yapentra', function () {
+    return view('activity/disability-and-data
+    ');
+});
+
+Route::get('/experiencing-as-a-computer-science-student-in-malaysia', function () {
+    return view('activity/experiencing-as-a-computer-science
+    ');
+});
+
+
