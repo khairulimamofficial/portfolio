@@ -12,7 +12,7 @@
 
     <header class="header">
         <nav class="navbar">
-            <a href="#"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
+            <a href="home"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#professional_track_record" class="nav-link">Professional Track Record</a>
@@ -687,7 +687,7 @@
                     </h4>
                 </div>
                 <div data-aos="fade-right" data-aos-delay="250" class="collaborate_right">
-                    <a href="#">
+                    <a href="https://wa.me/6281281631376" target="_blank">
                         <button class="achievements_btn btn">
                             Collaborate
                             <img class="icon-arrow" src="img/svg/arrow-right-white.svg"></button>

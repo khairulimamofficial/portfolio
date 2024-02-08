@@ -30,6 +30,18 @@ $card = array(
         "image"=>"img/work/icon/maya.webp",
         "skills"=>array("UX Research", "User Centered Design", "Persona", "Prototyping")
     ),
+    array("title"=>"Interactive Web-based Scrabble Game",
+        "desc"=>"The great opportunity for the application of scrabble games for foreign language education is not...",
+        "target"=>"web-based-scrabble-game",
+        "image"=>"img/work/icon/scrabble.webp",
+        "skills"=>array("PHP", "Javascript", "CSS", "Logical Thinking", "Dictionary")
+    ),
+    array("title"=>"NLP-based Literacy Education Assistant Application for the Visually Impaired",
+        "desc"=>"The problems experienced by blind people in accessing literacy are very limited due to the fact...",
+        "target"=>"https://pdki-indonesia.dgip.go.id/detail/b0b53b401d6459c111e40fda033ce1f6acd28de80b4bd46a1cdff1fd02d3ed70?nomor=EC00202291446&type=copyright&keyword=Aplikasi%20Asisten%20Pendidikan%20Literasi%20secara%20Inklusif%20bagi",
+        "image"=>"img/work/icon/netra.webp",
+        "skills"=>array("Python", "Natural Language Processing", "Product Management", "Product Roadmap")
+    ),
     array("title"=>"18th CSA - Computer Science Anniversary Logo",
         "desc"=>"CSA is an annual agenda of the Computer Science department. In 2019, it was held with the theme...",
         "target"=>"18th-csa-computer-science-anniversary-logo",
@@ -56,7 +68,7 @@ $card = array(
     ),
     array("title"=>"SMA Negeri 2 Medan Profile and Portal Website",
         "desc"=>"Education is a long-term investment whose results cannot be seen and felt instantly, so that...",
-        "target"=>"https://www.sribudayaresort.com",
+        "target"=>"https://sman2medan.sch.id/",
         "image"=>"img/work/icon/sman2.webp",
         "skills"=>array("Website Development", "Database Modelling", "UI/UX Design", "Project Management")
     )
@@ -81,19 +93,25 @@ $card = array(
 
     <header class="header">
         <nav class="navbar">
-            <a href="#"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
+            <a href="home"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
+                    <a href="#professional_track_record" class="nav-link">Professional Track Record</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#work_experiences" class="nav-link">Work Experiences</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#event" class="nav-link">Event</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -185,7 +203,7 @@ $card = array(
                     </h4>
                 </div>
                 <div data-aos="fade-right" data-aos-delay="250" class="collaborate_right">
-                    <a href="#">
+                    <a href="https://wa.me/6281281631376" target="_blank">
                         <button class="achievements_btn btn">
                             Collaborate
                             <img class="icon-arrow" src="img/svg/arrow-right-white.svg"></button>

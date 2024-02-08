@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home
     ');
 });
+Route::get('/home', function () {
+    return view('home
+    ');
+});
 
 Route::get('/uat-flore-app', function () {
     return view('casestudy/uat-flore-app
@@ -68,5 +72,11 @@ Route::get('/18th-csa-computer-science-anniversary-logo', function () {
 
 Route::get('/think-before-you-believe-check-before-you-share-poster', function () {
     return view('casestudy/think-before-you-believe-check-before-you-share-poster
+    ');
+});
+
+
+Route::get('/web-based-scrabble-game', function () {
+    return view('casestudy/web-based-scrabble-game
     ');
 });
