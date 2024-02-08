@@ -47,4 +47,26 @@ Route::get('/experiencing-as-a-computer-science-student-in-malaysia', function (
     ');
 });
 
+Route::get('/my-work-stories', function () {
+    return view('mywork
+    ');
+});
 
+Route::get('/ux-camera-system-for-culture-with-augmented-reality-technology', function () {
+    return view('casestudy/ux-camera-system-for-culture
+    ');
+});
+Route::get('/flexibility-learning-management-system-through-ux-research', function () {
+    return view('casestudy/flexibility-learning-system-ux
+    ');
+});
+
+Route::get('/18th-csa-computer-science-anniversary-logo', function () {
+    return view('casestudy/18th-csa-computer-science-anniversary-logo
+    ');
+});
+
+Route::get('/think-before-you-believe-check-before-you-share-poster', function () {
+    return view('casestudy/think-before-you-believe-check-before-you-share-poster
+    ');
+});

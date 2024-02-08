@@ -126,6 +126,7 @@
                         <h4>Result</h4>
                     </div>
                     <div>
+                        <img class="work-detail-img" src="img/logo/literaku.png" alt="logo-literaku" style="width:100px">
                         <p>During an initial observation at SLB-A YAPENTRA, there was enthusiasm and support for developing an application aimed at enhancing voice-based literacy for the blind through commands and listening. These findings open up possibilities for creating voice-based reading resources tailored for the visually impaired.
                         </p>
                         <p>The solutions to enhance blind literacy are seamlessly integrated into the Literaku application, an Android-based platform designed to empower individuals with visual impairments to enhance their literacy independently. The Literaku application's contribution lies in optimizing Indonesian voice commands by understanding the contextual meaning of nearby words, supported by Natural Language Processing. This facilitates visually impaired individuals in locating readings and executing various application activities through voice commands and listening.

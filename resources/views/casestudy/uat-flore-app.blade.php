@@ -195,7 +195,7 @@
                     <div>
                         <h6>Approval</h6>
                         <p>The undersigned acknowledge they have reviewed the<b>Flore: Flower recognition application</b>.  Test Summary Report and agree with the approach it presents. Changes to this Test Summary Report will be coordinated with and approved by the undersigned or their designated representatives.</p>
-                        <img class="work-detail-img" src="img/work/approval.png" alt="approval-table">
+                        <img class="work-detail-img" src="img/work/Approval.png" alt="approval-table">
                     </div>
                 </div>
             </div>

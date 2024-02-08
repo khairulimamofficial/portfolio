@@ -771,6 +771,106 @@ i{
 /* End of Section Collaborate  */
 
 
+
+/* Work Detail Section  */
+/* .section_blank{
+    height: 90px;
+} */
+
+.work-detail-section{
+    background-image: url(../img/photos/work-background-2.webp);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.work-detail-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    margin-left: 10%;
+}
+.work-detail-section h3{
+    color: #FFFFFF;
+    margin: 0;
+}
+.work-detail-section p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.work-detail_right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    background-image: url(../img/photos/work-background-shape.webp);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 12% 5% 3% 5%
+}
+
+.work-list-container{
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.card-work-container{
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 2%;
+    row-gap: 30px;
+}
+.card-work-container h6{
+    margin: 2% 0 2% 0;
+}
+.card-work-container p{
+    font-size: 16px;
+    color: #475569;
+    margin-bottom: 0;
+}
+.card-work-link{
+    width: calc(96%/3);
+}
+.card-work{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #FFFFFF;
+    /* cursor: pointer; */
+}
+
+.card-work-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-work-skills{
+    gap: 2%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.card-work-skills > p{
+    margin-top: 4px;
+}
+.card-work-skills p{
+    padding: 4px 8px;
+    background-color: rgba(49, 197, 255, 0.247);
+    border: 1px solid #2a70b1;
+    font-size: 12px;
+}
+
+
+
+
+
+/* End of Work Detail Section  */
+
+
+
+
+
 /* Footer  */
 .footer_top{
     width: 60%;
@@ -840,6 +940,12 @@ i{
     font-weight: 500;
     list-style-type: circle;
     margin: 1% 0;
+}
+.work-description-desc-list-number > li{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1% 0;
+    list-style-type: style;;
 }
 .work-description b{
     font-size: 16px;
@@ -917,5 +1023,9 @@ i{
     .achievements-btn-wrapper{
         width: 70%;
         margin: 0 auto;
+    }
+    .card-work{
+        width: calc(94%/4);
+        padding: 1%;
     }
   }

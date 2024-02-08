@@ -323,7 +323,7 @@
                 <div data-aos="fade-up" class="section-work_title flex">
                     <h4 class="title-section section-work__middle">
                         My Work <br><span class="highlight-yellow">Stories</span></h4>
-                    <a href="#"><button class="story_btn btn">More Stories<img class="icon-arrow" src="img/svg/arrow-right.svg"></button></a>
+                    <a href="my-work-stories"><button class="story_btn btn">More Stories<img class="icon-arrow" src="img/svg/arrow-right.svg"></button></a>
                 </div>
                 <div class="section-work__desc">
                     <div class="flex-container-work">
