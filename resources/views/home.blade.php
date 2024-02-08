@@ -15,16 +15,22 @@
             <a href="#"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
+                    <a href="#professional_track_record" class="nav-link">Professional Track Record</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#work_experiences" class="nav-link">Work Experiences</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#event" class="nav-link">Event</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -77,11 +83,11 @@
     <section>
         <div class="quote-container">
             <p data-aos="fade-right" class="quote">Never being <span class="highlight-yellow">competitor-focused</span> to doing something. Be Pioneer with <span class="highlight-yellow">customer-focused.</span></p>
-            <p data-aos="fade-right" class="name-quote">Khairul Imam</p>
+            {{-- <p data-aos="fade-right" class="name-quote">Khairul Imam</p> --}}
         </div>
     </section>
 
-    <section>
+    <section id="professional_track_record">
         <div class="container">
             <div class="logo-intro">
                 <img src="img/logo/logo.png" alt="logo" width="180px">
@@ -134,7 +140,7 @@
 
 
 
-    <section class="section-experience">
+    <section id="work_experiences" class="section-experience">
         <div class="container">
             <div class="flex experiences-flex">
                 <div data-aos="fade-right" class="experiences-flex_left">
@@ -311,7 +317,7 @@
 
 
 
-    <section class="section-work">
+    <section id="portfolio" class="section-work">
         <div class="container flex">
             <div data-aos="fade-up" class="section__left">
                 <p class="title-section_sm">
@@ -387,7 +393,7 @@
 
 
 
-    <section>
+    <section id="services">
         <div class="container">
             <div class="section-service">
                 <div data-aos="fade-up" class="section-service__top">
@@ -436,7 +442,7 @@
         </div>
     </section>
     
-    <section>
+    <section id="achievements">
         <div class="container ">
             <div class="section-achievements">
                 <div data-aos="fade-up" class="section-achievements__top">
@@ -600,7 +606,7 @@
         </div>
     </section> --}}
 
-    <section class="section-work">
+    <section id="event" class="section-work">
         <div class="container flex">
             <div data-aos="fade-up" class="section__left">
                 <p class="title-section_sm">
@@ -617,6 +623,7 @@
                 
                 <div class="section-work__desc">
                     <div class="flex-container-event">
+
                         <a href="experience-at-iklc">
                             <div data-aos="fade-right" class="flex-item-event">
                                 <img class="flex-item-event__img" src="https://media.licdn.com/dms/image/D5622AQEtQQPel8zX4A/feedshare-shrink_2048_1536/0/1706438249390?e=1709769600&v=beta&t=U-aDnpLxv4vb-l_TUt1MXAeuLKdNrkORgQaC5LadImM" alt="sample">

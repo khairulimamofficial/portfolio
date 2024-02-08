@@ -1,3 +1,72 @@
+<?php
+$card = array(
+    array("title"=>"User Acceptance Testing (UAT) Case Study on Flore App",
+        "desc"=>"The Flore Recognition System is created to assist anyone who desires to learn more about flowers...",
+        "target"=>"uat-flore-app",
+        "image"=>"img/work/icon/uat.webp",
+        "skills"=>array("User Acceptance Testing", "Testing Plan", "Testing Document")
+    ),
+    array("title"=>"Building an App Supporting SDGs through Product Management",
+        "desc"=>"The fourth goal of the Sustainable Development Goals (SDGs) emphasizes the importance of provid...",
+        "target"=>"building-an-application-supporting-sdgs-through-product-management",
+        "image"=>"img/work/icon/literaku.webp",
+        "skills"=>array("Product Management", "Data Analysis", "User behaviour","SDLC Implementation","Product Documentation")
+    ),
+    array("title"=>"Software Requirements Specification (SRS) Case Study To Initiate on Building an App",
+        "desc"=>"Since there are thousands of different flower species throughout the world, flower recognition...",
+        "target"=>"software-requirements-specification-srs-case-study-to-initiate-on-building-app",
+        "image"=>"img/work/icon/flore.webp",
+        "skills"=>array("SRS", "PRD", "Product Documentation", "UML", "System Architecture", "Functional Requirements", "Android (Java)")
+    ),
+    array("title"=>"Flexibility Learning Management System through UX Research",
+        "desc"=>"Users who already have a job and are busy so learning time must be flexible. However, users...",
+        "target"=>"flexibility-learning-management-system-through-ux-research",
+        "image"=>"img/work/icon/flexibility.webp",
+        "skills"=>array("UX Research", "Persona", "Empathy Map", "User Journey", "Wireframe")
+    ),
+    array("title"=>"UX Camera System for Culture with Augmented Reality Technology",
+        "desc"=>"Nowadays, people, especially millennials, are less familiar with and proud of these traditional...",
+        "target"=>"ux-camera-system-for-culture-with-augmented-reality-technology",
+        "image"=>"img/work/icon/maya.webp",
+        "skills"=>array("UX Research", "User Centered Design", "Persona", "Prototyping")
+    ),
+    array("title"=>"18th CSA - Computer Science Anniversary Logo",
+        "desc"=>"CSA is an annual agenda of the Computer Science department. In 2019, it was held with the theme...",
+        "target"=>"18th-csa-computer-science-anniversary-logo",
+        "image"=>"img/work/icon/csa.webp",
+        "skills"=>array("Graphic Design", "Philosophy", "Adobe Illustrator")
+    ),
+    array("title"=>"\"Think Before You Believe, Check Before You Share\" Poster",
+        "desc"=>"The poster is made in the form of infographics that present data, graphs, and illustrations to...",
+        "target"=>"think-before-you-believe-check-before-you-share-poster",
+        "image"=>"img/work/icon/hoax.webp",
+        "skills"=>array("Graphic Design", "Philosophy", "Adobe Illustrator")
+    ),
+    array("title"=>"E-Modul Tata Hidang Android Development",
+        "desc"=>"The E-Module Application for Cooking is an electronic module specifically for learning Cooking...",
+        "target"=>"https://play.google.com/store/apps/details?id=io.kodular.khairul_imam.Table_Manner",
+        "image"=>"img/work/icon/kodular.webp",
+        "skills"=>array("Mobile Development", "Functional Requirements")
+    ),
+    array("title"=>"Sribudaya Resort Company Profile Website",
+        "desc"=>"Sribudaya Resort and Homestay is located near the beach and in the center of town. Our resort...",
+        "target"=>"https://www.sribudayaresort.com",
+        "image"=>"img/work/icon/sribudaya.webp",
+        "skills"=>array("Website Development", "Functional Requirements")
+    ),
+    array("title"=>"SMA Negeri 2 Medan Profile and Portal Website",
+        "desc"=>"Education is a long-term investment whose results cannot be seen and felt instantly, so that...",
+        "target"=>"https://www.sribudayaresort.com",
+        "image"=>"img/work/icon/sman2.webp",
+        "skills"=>array("Website Development", "Database Modelling", "UI/UX Design", "Project Management")
+    )
+);
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,202 +126,46 @@
     <section>
         <div class="work-list-container">
             <div class="flex card-work-container">
-                <a href="uat-flore-app" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/uat.webp" alt="image-card">
-                        <h6>
-                            User Acceptance Testing (UAT) Case Study on Flore App
-                        </h6>
-                        <p>
-                            The Flore Recognition System is created to assist anyone who desires to learn more about flowers...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>User Acceptance Testing</p>
-                            <p>Testing Plan</p>
-                            <p>Testing Document</p>
-                        </div>
-                    </div>
-                </a>
 
-                <a href="building-an-application-supporting-sdgs-through-product-management" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/literaku.webp" alt="image-card">
-                        <h6>
-                            Building an App Supporting SDGs through Product Management
-                        </h6>
-                        <p>
-                            The fourth goal of the Sustainable Development Goals (SDGs) emphasizes the importance of provid...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>Product Management</p>
-                            <p>Data Analysis</p>
-                            <p>User behaviour</p>
-                            <p>SDLC Implementation</p>
-                            <p>Product Documentation</p>
-                        </div>
-                    </div>
-                </a>
 
-                <a href="software-requirements-specification-srs-case-study-to-initiate-on-building-app" class="card-work-link">               
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/flore.webp" alt="image-card">
-                        <h6>
-                            Software Requirements Specification (SRS) Case Study To Initiate on Building an App
-                        </h6>
-                        <p>
-                            Since there are thousands of different flower species throughout the world, flower recognition...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>SRS</p>
-                            <p>PRD</p>
-                            <p>Product Documentation</p>
-                            <p>UML</p>
-                            <p>System Architecture</p>
-                            <p>Functional Requirements</p>
-                            <p>Android (Java)</p>
-                        </div>
-                    </div>
-                </a>
 
-                {{-- <a href="#" class="card-work-link">
-                    <div class="card-work" onclick="window.location='detail'">
-                        <img class="card-work-img" src="img/activity/UiTM-2.jpg" alt="image-card">
-                        <h6>
-                            Gathering Data to Analyze User Behavior on Maya App
-                        </h6>
-                        <p>
-                            Gathering and analyzing user behavior involves a structured process of collecting, organizing...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>UX Research</p>
-                            <p>Design Thinking</p>
-                        </div>
-                    </div>
-                </a> --}}
 
-                <a href="flexibility-learning-management-system-through-ux-research" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/flexibility.webp" alt="image-card">
-                        <h6>
-                            Flexibility Learning Management System through UX Research
-                        </h6>
-                        <p>
-                            Users who already have a job and are busy so learning time must be flexible. However, users...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>UX Research</p>
-                            <p>Persona</p>
-                            <p>Empathy Map</p>
-                            <p>User Journey</p>
-                            <p>Wireframe</p>
-                        </div>
-                    </div>
-                </a>
 
+
+            <?php
+                $arr_length = count($card);
                 
-                <a href="ux-camera-system-for-culture-with-augmented-reality-technology" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/maya.webp" alt="image-card">
-                        <h6>
-                            UX Camera System for Culture with Augmented Reality Technology
-                        </h6>
-                        <p>
-                            Nowadays, people, especially millennials, are less familiar with and proud of these traditional...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>UX Research</p>
-                            <p>User Centered Design</p>
-                            <p>Persona</p>
-                            <p>Prototyping</p>
+                for ($row = 0; $row < $arr_length; $row++) {
+                    echo '
+                 
+                    <a href="'.$card[$row]['target'].'" class="card-work-link">
+                        <div class="card-work">
+                            <img class="card-work-img" src="'.$card[$row]['image'].'" alt="image-card">
+                            <h6>
+                                '.$card[$row]['title'].'
+                            </h6>
+                            <p>
+                                '.$card[$row]['desc'].'
+                            </p>
+                            <div class="flex card-work-skills">
+                                ';
+
+                                $skill_length = count($card[$row]['skills']);
+                                for ($skill = 0; $skill < $skill_length; $skill++){
+                                    echo '<p>'.$card[$row]['skills'][$skill].'</p>';
+                                }
+
+                                echo '
+                            </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
 
-                <a href="18th-csa-computer-science-anniversary-logo" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/csa.webp" alt="image-card">
-                        <h6>
-                            18th CSA - Computer Science Anniversary Logo
-                        </h6>
-                        <p>
-                            CSA is an annual agenda of the Computer Science department. In 2019, it was held with the theme...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>Graphic Design</p>
-                            <p>Philosophy</p>
-                            <p>Adobe Illustrator</p>
-                        </div>
-                    </div>
-                </a>
+                    ';
 
-                <a href="think-before-you-believe-check-before-you-share-poster" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/hoax.webp" alt="image-card">
-                        <h6>
-                            "Think Before You Believe, Check Before You Share" Poster
-                        </h6>
-                        <p>
-                            The poster is made in the form of infographics that present data, graphs, and illustrations to...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>Graphic Design</p>
-                            <p>Philosophy</p>
-                            <p>Adobe Illustrator</p>
-                        </div>
-                    </div>
-                </a>
+                }
 
+            ?>
 
-                <a href="https://play.google.com/store/apps/details?id=io.kodular.khairul_imam.Table_Manner" target="_blank" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/kodular.webp" alt="image-card">
-                        <h6>
-                            E-Modul Tata Hidang Android Development
-                        </h6>
-                        <p>
-                            The E-Module Application for Cooking is an electronic module specifically for learning Cooking...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>Mobile Development</p>
-                            <p>Functional Requirements</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.sribudayaresort.com" target="_blank" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/sribudaya.webp" alt="image-card">
-                        <h6>
-                            Sribudaya Resort Company Profile Website
-                        </h6>
-                        <p>
-                            Sribudaya Resort and Homestay is located near the beach and in the center of town. Our resort...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>Website Development</p>
-                            <p>Functional Requirements</p>
-                        </div>
-                    </div>
-                </a>
-
-
-                <a href="https://www.sribudayaresort.com" target="_blank" class="card-work-link">
-                    <div class="card-work">
-                        <img class="card-work-img" src="img/work/icon/sman2.webp" alt="image-card">
-                        <h6>
-                            SMA Negeri 2 Medan Profile and Portal Website
-                        </h6>
-                        <p>
-                            Education is a long-term investment whose results cannot be seen and felt instantly, so that...
-                        </p>
-                        <div class="flex card-work-skills">
-                            <p>Website Development</p>
-                            <p>Database Modelling</p>
-                            <p>UI/UX Design</p>
-                            <p>Project Management</p>
-                        </div>
-                    </div>
-                </a>
 
 
 
