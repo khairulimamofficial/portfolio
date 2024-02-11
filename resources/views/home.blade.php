@@ -344,13 +344,13 @@
                             </a>
                         </div>
                         <div data-aos="fade-right" class="flex flex-item-work-container">
-                            <a class="flex flex-item-work-link" href="uat-flore-app">
+                            <a class="flex flex-item-work-link" href="implementation-of-smart-and-strategies-on-readme-application">
                                 <div class="flex-item-work">
                                     <h6 class="flex-item-work_title">
-                                        Gathering Data to Analyze User Behavior on Maya App
+                                        Implementation of SMART and strategies on ReadMe Application
                                     </h6>
                                     <p class="flex-item-work_desc">
-                                        Gathering and analyzing user behavior involves a structured process of collecting, organizing...
+                                        Books are the windows to the world. With books, one can explore the outside world without having...
                                     </p>
                                 </div>                            
                                 <img class="arrow-right-circle" src="img/svg/arrow-right-circle.svg">
