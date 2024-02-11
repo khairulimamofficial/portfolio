@@ -10,31 +10,8 @@
 
 <body>
 
-    <header class="header">
-        <nav class="navbar">
-            <a href="../"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-
+    @include('components/navbar')
+    
     <main>
 
         <section class="section-detail-work">
@@ -136,22 +113,11 @@
         </div>
     </section>
 
+    @include('components.collaborate')
+
 </body>
-<footer>
-    <div class="container">
-        <div data-aos="fade-right">
-            <p class="footer_top">My hands-on experience, technical proficiency, and
-                dedication to providing exceptional end-user support
-                align well with your organization's goals.
-            </p>
-        </div>
-        <div class="flex footer-wrapper">
-            <p class="footer_bottom">Made by</p>
-            <img src="img/logo/logo.png" alt="logo" width="80px">
-            <p class="footer_bottom">using PHP Laravel</p>
-        </div>
-    </div>
-</footer>
+
+    @include('components.footer')
 
 <script src="js/script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

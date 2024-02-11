@@ -10,36 +10,7 @@
 
 <body>
 
-    <header class="header">
-        <nav class="navbar">
-            <a href="home"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#professional_track_record" class="nav-link">Professional Track Record</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#work_experiences" class="nav-link">Work Experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#achievements" class="nav-link">Achievements</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#event" class="nav-link">Event</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
+    @include('components/navbar')
 
     <main>
         <section>
@@ -573,6 +544,15 @@
                         <p class="flex-item-achievements_year">2019</p>
                     </div>
                 </div>
+
+{{-- 
+                <button id="arrowButton" class="see-more-detail-achievements" onclick="toggleActiveClass()">
+                    Click Me <span id="arrowIcon">&#9660;</span>
+                </button> --}}
+
+
+
+
                 <div data-aos="fade-right" class="achievements-btn-wrapper">
                     <a href="#"><button class="achievements_btn btn">More Stories<img class="icon-arrow" src="img/svg/arrow-right-white.svg"></button></a>
                 </div>
@@ -676,44 +656,11 @@
         </div>
     </section>
 
-
-    <section class="section-collaborate">
-        <div class="container">
-            <div class="flex collaborate-wrapper">
-                <div data-aos="fade-right" class="collaborate_left">
-                    <h4>Unlock your<br>
-                        business’s full<br>
-                        potential. Now.
-                    </h4>
-                </div>
-                <div data-aos="fade-right" data-aos-delay="250" class="collaborate_right">
-                    <a href="https://wa.me/6281281631376" target="_blank">
-                        <button class="achievements_btn btn">
-                            Collaborate
-                            <img class="icon-arrow" src="img/svg/arrow-right-white.svg"></button>
-                    </a>
-                    <a class="contact-link contact-number" href="https://wa.me/6281281631376" target=”_blank”>+62 812 8163 1376</a>
-                    <a class="contact-link" href="mailto:khairulimamofficial@gmail.com" target=”_blank”>khairulimamofficial@gmail.com</a>
-                    <a class="contact-link" href="https://www.linkedin.com/in/khairul-imam" target=”_blank”>linkedin.com/in/khairul-imam</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('components.collaborate')
 
 </body>
-<footer>
-    <div class="container">
-        <div data-aos="fade-right">
-            <p class="footer_top">These experiences showcase my commitment to excellence, innovation, and leveraging technology for transformative solutions.
-            </p>
-        </div>
-        <div class="flex footer-wrapper">
-            <p class="footer_bottom">Made by</p>
-            <img src="img/logo/logo.png" alt="logo" width="80px">
-            <p class="footer_bottom">using PHP Laravel</p>
-        </div>
-    </div>
-</footer>
+
+    @include('components.footer')
 
 <script src="js/script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

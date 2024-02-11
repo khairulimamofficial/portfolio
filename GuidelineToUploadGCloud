@@ -1,4 +1,4 @@
 1. Zip folder
 2. Upload dari Terminal
-3. sudo unzip public.zip -d /var/www/html/portfolio
+3. sudo unzip 'public_(1).zip' -d /var/www/html/portfolio
 4. Commit and push git to save works

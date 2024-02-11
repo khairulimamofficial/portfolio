@@ -22,7 +22,6 @@ li {
 a {
     text-decoration: none;
 }
-
 /* Header ------------- */
 
 .header{
@@ -926,6 +925,7 @@ i{
 .work-description p{
     font-size: 16px;
     font-weight: 500;
+    line-height: 28px;
 }
 .work-description h4{
     margin: 8% 0 4% 0;
@@ -933,19 +933,21 @@ i{
 }
 
 .work-description h6{
-    margin: 0 0 0 0;
+    margin: 5% 0 0 0;
 }
 .work-description-desc-list > li{
     font-size: 16px;
     font-weight: 500;
     list-style-type: circle;
     margin: 1% 0;
+    line-height: 28px;
 }
 .work-description-desc-list-number > li{
     font-size: 16px;
     font-weight: 500;
     margin: 1% 0;
-    list-style-type: style;;
+    list-style-type: style;
+    line-height: 28px;
 }
 .work-description b{
     font-size: 16px;
@@ -955,12 +957,18 @@ i{
     margin: 1% 0;
 }
 
+.img-small{
+    width: 50% !important;
+}
+
 /* End of Detail work  */
 
 
 
-
-
+/* .show-details{
+    display: none;
+}
+ */
 
 
 

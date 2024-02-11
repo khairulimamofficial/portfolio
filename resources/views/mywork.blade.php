@@ -18,16 +18,28 @@ $card = array(
         "image"=>"img/work/icon/flore.webp",
         "skills"=>array("SRS", "PRD", "Product Documentation", "UML", "System Architecture", "Functional Requirements", "Android (Java)")
     ),
+    array("title"=>"Implementation of SMART and strategies on ReadMe Application",
+        "desc"=>"Books are the windows to the world. With books, one can explore the outside world without having...",
+        "target"=>"implementation-of-smart-and-strategies-on-readme-application",
+        "image"=>"img/work/icon/smart.webp",
+        "skills"=>array("Product Managemet", "SMART", "Product Strategy", "Problem Solving")
+    ),
+    array("title"=>"Potential Market Analysis at TestMate",
+        "desc"=>"TAM SAM SOM is a calculation method to measure the market potential of a business. Usually, this...",
+        "target"=>"potential-market-analysis-at-testmate",
+        "image"=>"img/work/icon/tamsamsom.webp",
+        "skills"=>array("Business Analysis", "Potential Market", "Forecasting", "Estimating")
+    ),
     array("title"=>"Flexibility Learning Management System through UX Research",
         "desc"=>"Users who already have a job and are busy so learning time must be flexible. However, users...",
         "target"=>"flexibility-learning-management-system-through-ux-research",
-        "image"=>"img/work/icon/flexibility.webp",
+        "image"=>"img/work/icon/ledesign.webp",
         "skills"=>array("UX Research", "Persona", "Empathy Map", "User Journey", "Wireframe")
     ),
     array("title"=>"UX Camera System for Culture with Augmented Reality Technology",
         "desc"=>"Nowadays, people, especially millennials, are less familiar with and proud of these traditional...",
         "target"=>"ux-camera-system-for-culture-with-augmented-reality-technology",
-        "image"=>"img/work/icon/maya.webp",
+        "image"=>"img/work/icon/maya-2.webp",
         "skills"=>array("UX Research", "User Centered Design", "Persona", "Prototyping")
     ),
     array("title"=>"Interactive Web-based Scrabble Game",
@@ -42,18 +54,24 @@ $card = array(
         "image"=>"img/work/icon/netra.webp",
         "skills"=>array("Python", "Natural Language Processing", "Product Management", "Product Roadmap")
     ),
+    array("title"=>"User-Centered Design (UCD) for Dailypedia - Daily Life Productivity Web",
+        "desc"=>"Menjadi pribadi yang produktif memiliki banyak kelebihan, di antaranya dapat menjaga pikiran...",
+        "target"=>"user-centered-design-for-dailypedia-daily-life-productivity-web",
+        "image"=>"img/work/icon/dailypedia.webp",
+        "skills"=>array("UX Research", "User Centered Design", "UI Design", "Prototyping")
+    ),
     array("title"=>"18th CSA - Computer Science Anniversary Logo",
         "desc"=>"CSA is an annual agenda of the Computer Science department. In 2019, it was held with the theme...",
         "target"=>"18th-csa-computer-science-anniversary-logo",
         "image"=>"img/work/icon/csa.webp",
         "skills"=>array("Graphic Design", "Philosophy", "Adobe Illustrator")
     ),
-    array("title"=>"\"Think Before You Believe, Check Before You Share\" Poster",
-        "desc"=>"The poster is made in the form of infographics that present data, graphs, and illustrations to...",
-        "target"=>"think-before-you-believe-check-before-you-share-poster",
-        "image"=>"img/work/icon/hoax.webp",
-        "skills"=>array("Graphic Design", "Philosophy", "Adobe Illustrator")
-    ),
+    // array("title"=>"\"Think Before You Believe, Check Before You Share\" Poster",
+    //     "desc"=>"The poster is made in the form of infographics that present data, graphs, and illustrations to...",
+    //     "target"=>"think-before-you-believe-check-before-you-share-poster",
+    //     "image"=>"img/work/icon/hoax.webp",
+    //     "skills"=>array("Graphic Design", "Philosophy", "Adobe Illustrator")
+    // ),
     array("title"=>"E-Modul Tata Hidang Android Development",
         "desc"=>"The E-Module Application for Cooking is an electronic module specifically for learning Cooking...",
         "target"=>"https://play.google.com/store/apps/details?id=io.kodular.khairul_imam.Table_Manner",
@@ -91,36 +109,7 @@ $card = array(
 
 <body>
 
-    <header class="header">
-        <nav class="navbar">
-            <a href="home"><img class="nav-logo" src="img/logo/logo.png" alt="logo"></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#professional_track_record" class="nav-link">Professional Track Record</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#work_experiences" class="nav-link">Work Experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#achievements" class="nav-link">Achievements</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#event" class="nav-link">Event</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
+    @include('components/navbar')
 
     {{-- <section class="section_blank">
     </section> --}}
@@ -216,20 +205,12 @@ $card = array(
         </div>
     </section>
 
+    @include('components/collaborate')
+
 </body>
-<footer>
-    <div class="container">
-        <div data-aos="fade-right">
-            <p class="footer_top">These experiences showcase my commitment to excellence, innovation, and leveraging technology for transformative solutions.
-            </p>
-        </div>
-        <div class="flex footer-wrapper">
-            <p class="footer_bottom">Made by</p>
-            <img src="img/logo/logo.png" alt="logo" width="80px">
-            <p class="footer_bottom">using PHP Laravel</p>
-        </div>
-    </div>
-</footer>
+    
+    @include('components/footer')
+
 
 <script src="js/script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

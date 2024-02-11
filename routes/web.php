@@ -80,3 +80,19 @@ Route::get('/web-based-scrabble-game', function () {
     return view('casestudy/web-based-scrabble-game
     ');
 });
+
+Route::get('/implementation-of-smart-and-strategies-on-readme-application', function () {
+    return view('casestudy/implementation-of-smart-and-strategies-on-readme-application
+    ');
+});
+
+Route::get('/user-centered-design-for-dailypedia-daily-life-productivity-web', function () {
+    return view('casestudy/user-centered-design-for-dailypedia-daily-life-productivity-web
+    ');
+});
+
+Route::get('/potential-market-analysis-at-testmate', function () {
+    return view('casestudy/potential-market-analysis-at-testmate
+    ');
+});
+
